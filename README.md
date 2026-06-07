@@ -11,6 +11,25 @@ A fintech company operating in India wants to optimize its loan approval process
 I will build an ML model that would help the company to assess the creditworthiness of future applicants which would help them process loans faster.
 
 
+## Data Dictionary
+
+
+* loan_id - Loan ID of the applicant.
+* no_of_dependents - Number of Dependents for the person.
+* gender - Refers to the gender of the person i.e ‘male’ or ‘female’
+* education - Refers to the education.
+* self_employed - whether the person is self-employed or not.
+* income_annum - Refers to the yearly income of the person.
+* loan_amount - Refers to the loan amount disbursed.
+* loan_term_yrs - Refers to the loan term in years.
+* cibil_score - This is a cibil score of the person.
+* residential_assets_value - Refers to the price of residential assets such as apartment, villa etc.
+* commercial_assets_value - Refers to the price of commerical assets such as offices, medical centres, hotels, malls etc.
+* luxury_assets_value - Refers to the price of luxury assets such as luxury cars or items.
+* bank_asset_value - Refers how much money is in the bank including bank shares, Fixed deposits etc.
+* loan_status - Refers to the status of the loan whether it is approved or not.
+
+
 ## Actions
 
 I’ve peformed data cleaning using SQL and exploratory data analysis using PowerBI and found out that cibil_score is not the only contributor to the loan approval. Moreover, Approximately 62.2% of the loans in the dataset are approved (2656 out of 4,269), indicating a moderate class imbalance.
